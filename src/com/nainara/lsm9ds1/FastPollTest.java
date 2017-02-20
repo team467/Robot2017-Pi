@@ -5,6 +5,8 @@ package com.nainara.lsm9ds1;
 
 import java.util.concurrent.TimeUnit;
 
+import org.usfirst.frc.team467.pi.sensors.RioConnection;
+
 import edu.wpi.first.wpilibj.networktables.NetworkTable;
 
 /**
@@ -18,7 +20,7 @@ public class FastPollTest {
 	 */
 	public static void main(String[] args) {
 		NetworkTable.setClientMode();
-		NetworkTable.setIPAddress("10.0.1.9");
+		NetworkTable.setIPAddress(RioConnection.NETWORK_TABLE_SERVER_NAME_OR_IP);
 		NetworkTable table = NetworkTable.getTable("imu");
 
 		Driver driver = new Driver();
