@@ -2,5 +2,12 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/commons-collections-3.2.2-javadoc.jar"/>
+	<classpathentry kind="lib" path="lib/commons-collections-3.2.2.jar"/>
+	<classpathentry kind="lib" path="lib/NetworkTables-3.1.7-arm-raspbian.jar"/>
+	<classpathentry kind="lib" path="lib/NetworkTables-3.1.7-sources.jar"/>
+	<classpathentry kind="lib" path="lib/pi4j-core-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/pi4j-device-1.1.jar"/>
+	<classpathentry kind="lib" path="lib/pi4j-gpio-extension-1.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
